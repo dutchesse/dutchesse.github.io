@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Esther</title>
+  </head>
+  <body>
+    <header>
+      <h1>Esther's blog</h1>
+    </header>
+
+  <div class="page-content">
+    <h2>Tron Lines</h2>
+    <h1 id="studio-place-">Studio &quot;Place&quot;</h1>
+<h2 id="animated-tron-lines">Animated Tron Lines</h2>
+<p>Transcripts form video <a href="http://youtu.be/8_QFzXDK588">Animated Tron Lines</a></p>
+<ul>
+<li>Composition &gt; new Composition &gt; 960 x 480 &gt; OK</li>
+<li>Layer &gt; new &gt; solid &gt; white background &gt;  rename &quot;LINES&quot; &gt; OK</li>
+<li>Use pen tool to create lines, (click + shift created perfect angles) &gt; Each line creates new Mask</li>
+<li>Stroke effect &gt; In EPW, type in stroke, grab it and drop it on the Lines Layer</li>
+<li>In PW under paint style &gt; select &quot;reveal original image&quot; &gt; 
+End &gt; set to 0 &gt; move time to 1 second &gt; hit little timer next to &quot;End&quot; (drops a key frame)</li>
+<li>Move slider forward a bit &gt; change &quot;end&quot; percentage to 100% &gt;If time slider is moved, you now can see the animation</li>
+</ul>
+<h4 id="next-step-">Next step:</h4>
+<ul>
+<li>Duplicate the stroke (command D) &gt; select mask 2 &gt; under paint style set to &quot;on original image&quot;</li>
+<li>Duplicate the stroke (command D) &gt; select mask 3 &gt; under paint style set to &quot;on original image&quot;</li>
+<li>Adjust timing by moving the key frames</li>
+</ul>
+<h4 id="add-effects-">Add Effects:</h4>
+<ul>
+<li>Effect &gt; Generate &gt; fill</li>
+<li>Effect &gt; Stylize Glow
+-Make sure Tron lines are color you want &gt; set Glow threshold to 30% </li>
+</ul>
+<h4 id="little-leading-ball-of-light-">Little leading ball of light:</h4>
+<ul>
+<li>In Project window &gt; Composition &gt; New Composition &gt; background Black &gt; OK</li>
+<li>Layer &gt; new &gt; Solid &gt; background Black &gt; rename Flair</li>
+<li>Type in Lens &gt; Lens Flare &gt; Drop on &quot;Flair&quot; layer
+-Set Lens Type 105 mm &gt; drag/drop centre to create single point &gt; set brightness 55% (to your liking) </li>
+<li>Effect &gt; Color Correction &gt; Tint &gt; change as you see fit &gt; set tint to 60%</li>
+<li>Effects &gt; Color Correction &gt; Exposure &gt; set exposure as bright as you like</li>
+<li>Composition &gt; save frame as &gt; &gt; File &gt; PNG (change in render que, click on Photoshop) &gt; save as PNG &gt; click Render (should now show up in PW)</li>
+</ul>
+<h4 id="creating-null-object-">Creating Null object:</h4>
+<ul>
+<li>Layer &gt; new &gt; null object</li>
+<li>Select Line Layer &gt; hit M (mask) &gt; select Mask Path for Mask 1 &gt; CMD/C (copy)
+-Select Null Layer &gt; hit P (position) &gt; select Position &gt; CMD/V (paste) (Path  of the line has now been copied to Null position)</li>
+<li>Line up the Null start/stop position with the Lines &gt; Repeat for all lines</li>
+<li>Hit fn/tilda key so TW fills up screen &gt; select Mask 1 &gt; hit &quot;E&quot; &gt; brings up stroke effect for Mask 1</li>
+<li>See start/end key frame, hit back arrow on left of End to go to key frames point in timeline, drag Null Line 1 position key frame directly over the 1st end key frame , hit forward &gt; next key frame do same &gt; lines up now the null object lines up in both position and time</li>
+<li>Repeat for all lines, Nulls objects now move with end of lines</li>
+<li>Hit fn/tilda key again &gt; rename Null objects to avoid confusion</li>
+</ul>
+<h4 id="light-flair">Light Flair</h4>
+<ul>
+<li>Drop light image in TLW &gt; scale down </li>
+<li>with layer selected Rclick &gt; set Blending mode from normal to additive </li>
+<li>Match position of light object to tip of line</li>
+<li>Take pick whip, parent it to the null object for line 1</li>
+<li>Light follows the line is now parented to the null object</li>
+<li>Repeat for each line</li>
+</ul>
+<p>Rest of tut is talking about creating a mask to get rid of the fall off</p>
+<h4 id="flickering-the-light">Flickering the light</h4>
+<ul>
+<li>Select light one, effect , color correction, exposure, alt click on stopwatch, expression box, wiggle expression &gt; type in wiggle(2.1.6)</li>
+<li>copy/paste in light layer new solid, call it grid, effect generate grid, lower border to 2, set size from width &amp; Height slider &gt; set to 120 and 
+pre-compose the grid &gt; adjust color &gt; Effect &gt; Stylise &gt; Glow &gt; lower threshold to 25 increase &gt; glow to 1.3 &gt; radius 20 </li>
+<li>Lower opacity &gt; hit &quot;t&quot; for opacity lower it to 60</li>
+</ul>
+
+    <p>Back to the <a href="index.html">blog listing</a></p>
+  </div>
+  </body>
+</html>
